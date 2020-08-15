@@ -1,0 +1,59 @@
+html {
+  font-size: 10px;
+  overflow: hidden;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("https://images.unsplash.com/photo-1501612780327-45045538702b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9") no-repeat center center/cover;
+}
+
+
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(255,255,255,0.05);
+  text-shadow: 0 0 .5rem black;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+-moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: rgba(255,255,255,0.1); 
+  /* box-shadow: 0 0 1rem #ffc600; */
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(255,255,255,0.5);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(255,255,255,0.5);
+  box-shadow: 0px 0px 20px 0px rgba(255,255,255,0.5)
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
