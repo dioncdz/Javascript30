@@ -13,5 +13,8 @@ function setClock() {
   hourHand.style.transform = `rotate(${hourRatio * 360}deg)`;
 }
 
+// Set the clock to current time 
 setClock();
+
+// Apply setClock() every second
 setInterval(setClock, 1000);
