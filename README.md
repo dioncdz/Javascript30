@@ -1,4 +1,4 @@
-This is JavaScript30 by WesBos
+<strong>This is JavaScript30</strong>
 
 After finishing my Javascript course in Udemy(Jonas Schmedtmann), I looked for a project-based platform where I can focus on the application of what I have learned and stumbled upon Wes Bos' online course. 
 
