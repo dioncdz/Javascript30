@@ -69,3 +69,5 @@ fetch('https://api.github.com/users/wesbos')
 
 // table
 console.table(dogs);
+
+console.dir(document);
