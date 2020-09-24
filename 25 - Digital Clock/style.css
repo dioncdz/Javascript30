@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background:#000;
+   color: #fff;
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+
+#clock  {
+   display: flex;
+   font-size: 3em;
+}
+
+#clock p {
+   text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;;
+
+}
